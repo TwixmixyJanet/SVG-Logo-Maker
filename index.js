@@ -11,9 +11,9 @@ function generateLogo(response) {
     const svgImage = createShape(response);
     fs.writeFile(createFile, svgImage, () => console.log(`
     ${chalk.magentaBright('~~~~~~~~~~~ Your new logo has been generated as "logo.svg" ~~~~~~~~~~~')}
-    ${chalk.cyanBright('~~~~~~~~~~~~~~ This can be found in the examples folder ~~~~~~~~~~~~~~')}
+    ${chalk.cyanBright('~~~~~~~~~~~~ This file can be found in the examples folder ~~~~~~~~~~~~')}
 
-    ${chalk.red('! PLEASE NOTE IF YOU DID NOT ENTER A COLOR IT WILL DEFAULT TO BLACK!')}
+    ${chalk.red('please note that if you did not enter a color it will default to black')}
     `))
 }
 
