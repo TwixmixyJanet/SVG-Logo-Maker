@@ -1,7 +1,7 @@
 // imports and connections
 const inquirer = require('inquirer');
 const fs = require('fs');
-const questions = require('./lib/questions.js');
+const questions = require('./lib/questions');
 const createShape = require('./lib/createShape.js');
 const createFile = "./examples/logo.svg";
 
@@ -13,7 +13,13 @@ function generateLogo(response) {
 
 // function to initiate the questions
 function init() {
-    inquirer.prompt(questions)
+        console.log(
+        `
+        ~~~~~~~~~~ Welcome to your logo generator! ~~~~~~~~~~
+        ~~~~~~~~~~~~~ Follow the prompts below. ~~~~~~~~~~~~~
+        `),
+    inquirer
+    .prompt(questions)
     .then((response) => {
         generateLogo(response);
     })
