@@ -13,7 +13,7 @@ function generateLogo(response) {
 
 // function to initiate the questions
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer.prompt(questions)
     .then((response) => {
         generateLogo(response);
     })
