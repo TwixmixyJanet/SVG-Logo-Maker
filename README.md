@@ -1,12 +1,13 @@
-# Janet's Professional README Generator
+# Janet's SVG Logo Maker
 
-### [View Project Video Here](https://drive.google.com/file/d/1Od5RjhkV9jCNbGp2n_SjrR4qz6pov_Dt/view?usp=sharing "Janet's Professional README Generator")<br />
-![image of Janet's Professional README Generator](assets/img/projectimage.png "image of Janet's Professional README Generator")
+### [View Project Video Here](https:// "Janet's SVG Logo Maker")<br />
+![image of Janet's SVG Logo Maker](assets/img/projectimage.png "image of Janet's SVG Logo Maker")
 | Technology Used    | Resource URL |
 | --------  | ------- |
 | NodeJS      | https://nodejs.org/en |
 | Inquirer      | https://www.npmjs.com/package/inquirer |
 | FS      | https://nodejs.org/api/fs.html |
+| Jest      | https:// |
 | Screencastify | https://www.screencastify.com/ |
 | JavaScript | https://developer.mozilla.org/en-US/docs/Web/JavaScript |
 | Git       | https://git-scm.com/ |
