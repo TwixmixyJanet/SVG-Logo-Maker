@@ -4,15 +4,16 @@ const fs = require('fs');
 const questions = require('./lib/questions');
 const createShape = require('./lib/createShape.js');
 const createFile = "./examples/logo.svg";
+const chalk = require('chalk');
 
 // function to generate logo
 function generateLogo(response) {
     const svgImage = createShape(response);
     fs.writeFile(createFile, svgImage, () => console.log(`
-    ~~~~~~~~~~~ Your new logo has been generated as "logo.svg" ~~~~~~~~~~~
-    ~~~~~~~~~~~~~~ This can be found in the examples folder ~~~~~~~~~~~~~~
+    ${chalk.magentaBright('~~~~~~~~~~~ Your new logo has been generated as "logo.svg" ~~~~~~~~~~~')}
+    ${chalk.cyanBright('~~~~~~~~~~~~~~ This can be found in the examples folder ~~~~~~~~~~~~~~')}
 
-    ! PLEASE NOTE IF YOU DID NOT ENTER A COLOR IT WILL DEFAULT TO BLACK!
+    ${chalk.red('! PLEASE NOTE IF YOU DID NOT ENTER A COLOR IT WILL DEFAULT TO BLACK!')}
     `))
 }
 
@@ -20,8 +21,8 @@ function generateLogo(response) {
 function init() {
         console.log(
         `
-        ~~~~~~~~~~ Welcome to your logo generator! ~~~~~~~~~~
-        ~~~~~~~~~~~~~ Follow the prompts below. ~~~~~~~~~~~~~
+        ${chalk.magentaBright('~~~~~~~~~~ Welcome to your logo generator! ~~~~~~~~~~')}
+        ${chalk.cyanBright('~~~~~~~~~~~~~ Follow the prompts below. ~~~~~~~~~~~~~')}
         `),
     inquirer
     .prompt(questions)
