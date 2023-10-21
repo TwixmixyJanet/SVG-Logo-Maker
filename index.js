@@ -8,7 +8,12 @@ const createFile = "./examples/logo.svg";
 // function to generate logo
 function generateLogo(response) {
     const svgImage = createShape(response);
-    fs.writeFile(createFile, svgImage, () => console.log(`Your new logo has been generated as "logo.svg"`))
+    fs.writeFile(createFile, svgImage, () => console.log(`
+    ~~~~~~~~~~~ Your new logo has been generated as "logo.svg" ~~~~~~~~~~~
+    ~~~~~~~~~~~~~~ This can be found in the examples folder ~~~~~~~~~~~~~~
+
+    ! PLEASE NOTE IF YOU DID NOT ENTER A COLOR IT WILL DEFAULT TO BLACK!
+    `))
 }
 
 // function to initiate the questions
