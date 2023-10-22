@@ -24,7 +24,7 @@
 * [License](#license)
 
 ## Description:
-This application acts as a wizard to write a professional README for your project.<br />
+This application acts as a wizard to create an SVG logo.<br />
 <br />
 
 #### How to use this app:
@@ -37,60 +37,61 @@ This application acts as a wizard to write a professional README for your projec
   * Clone the repo to your device 
   * Initiate NPM 
   * Install inquirer 
+  * Install chalk
 * Open Integrated Terminal (CLI) 
 * type "node index.js" 
 * Follow the question prompts until complete 
-* Retrieve file from 'dist' folder
+* Retrieve file from 'examples' folder
 
 #### User Story
-- AS A developer
-- I WANT a README generator
-- SO THAT I can quickly create a professional README for a new project
+- AS a freelance web developer
+- I WANT to generate a simple logo for my projects
+- SO THAT I don't have to pay a graphic designer
 
 #### Acceptance Criteria
 - GIVEN a command-line application that accepts user input
-- WHEN I am prompted for information about my application repository
-- THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-- WHEN I enter my project title
-- THEN this is displayed as the title of the README
-- WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-- THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-- WHEN I choose a license for my application from a list of options
-- THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-- WHEN I enter my GitHub username
-- THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-- WHEN I enter my email address
-- THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-- WHEN I click on the links in the Table of Contents
-- THEN I am taken to the corresponding section of the README
+- WHEN I am prompted for text
+- THEN I can enter up to three characters
+- WHEN I am prompted for the text color
+- THEN I can enter a color keyword (OR a hexadecimal number)
+- WHEN I am prompted for a shape
+- THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+- WHEN I am prompted for the shape's color
+- THEN I can enter a color keyword (OR a hexadecimal number)
+- WHEN I have entered input for all the prompts
+- THEN an SVG file is created named `logo.svg`
+- AND the output text "Generated logo.svg" is printed in the command line
+- WHEN I open the `logo.svg` file in a browser
+- THEN I am shown a 300x200 pixel image that matches the criteria I entered
+
 
 ### Lessons Learned
 
-#### 1. Inquirer
-Inquirer is an NPM. It's an embeddable and easy to use command line interfact for Node.JS. For this project I used it to easily implement the ability to ask question, parse the input and validate answers.
+#### 1. TBD
+Description
 <br />
 ![lesson 1](assets/img/lesson1.png)
 ![lesson 1](assets/img/lesson1c.png)
 ![lesson 1](assets/img/lesson1b.png)
 
-#### 2. fs (File System)
-fs is an imported module through Node.JS. The module enables the interaction of files within the affected JavaScript files. It allows for operations like synchronous, callback, and promise-based forms. Most specifically for this I needed to use the Promise execute the resolve and reject process for writing the README.md file.
+#### 2. TBD
+Description
 <br />
 ![lesson 2](assets/img/lesson2.png)
 ![lesson 2](assets/img/lesson2b.png)
 
-#### 3. Template Literals
-Personally I've loved template literals since they were introduced. This project really illustrated the need and versatility of using them to make all of the content to go in the README file.
+#### 3. TBD
+Description
 <br />
 ![lesson 3](assets/img/lesson3.png)
 
-#### 4. Module Exports
-For this project the starter code had the work occurring in two files, because of this I needed to be able to export the content created in the generateMarkdown to the index file to then write the document. The allows for the separation of JavaScript files and being able to contain one or certain actions to a specific file.
+#### 4. TBD
+Description
 <br />
 ![lesson 4](assets/img/lesson4.png)
 
 #### Synopsis
-Overall I enjoyed working in Node.JS and learning more about the capabilities of what I can accomplish through the TERMINAL. This project was a good exercise in see what a few of the possibilities are of working on projects on my local device.
+Description
 
 ## Installation
 
@@ -104,7 +105,7 @@ Overall I enjoyed working in Node.JS and learning more about the capabilities of
 
 ## Usage
 
-This is a professional README generator app. If you would like to use this app follow the installation steps and curate it to your needs. If you would like to use this app to create your own README files, follow the steps under the description above and click the link at the top of this page.
+This is a SVG logo generator app. If you would like to use this app follow the installation steps and curate it to your needs. If you would like to use this app to create your SVG logo files, follow the steps under the description above and click the link at the top of this page.
 
 ## License
 
