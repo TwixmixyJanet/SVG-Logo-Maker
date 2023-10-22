@@ -7,7 +7,7 @@
 | NodeJS      | https://nodejs.org/en |
 | Inquirer      | https://www.npmjs.com/package/inquirer |
 | FS      | https://nodejs.org/api/fs.html |
-| Jest      | https:// |
+| Jest      | https://jestjs.io/docs/getting-started |
 | Screencastify | https://www.screencastify.com/ |
 | JavaScript | https://developer.mozilla.org/en-US/docs/Web/JavaScript |
 | Git       | https://git-scm.com/ |
