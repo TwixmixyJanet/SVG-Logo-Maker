@@ -1,6 +1,6 @@
 # Janet's SVG Logo Maker
 
-### [View Project Video Here](https:// "Janet's SVG Logo Maker")<br />
+### [View Project Video Here](https://drive.google.com/file/d/1F6zg5ufYqPWxx0FiAr8zQV_URiC3A96D/view?usp=sharing "Janet's SVG Logo Maker")<br />
 ![image of Janet's SVG Logo Maker](assets/img/projectimage.png "image of Janet's SVG Logo Maker")
 | Technology Used    | Resource URL |
 | --------  | ------- |
