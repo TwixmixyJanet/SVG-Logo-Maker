@@ -68,7 +68,7 @@ This application acts as a wizard to create an SVG logo.<br />
 ### Lessons Learned
 
 #### 1. SVG
-For this project I learned about scalable vector graphics and how to generate them through object constructors. Through the SVG element each basic shape needed to have a element of either circle, rect or polygon. From there it was about defining their characteristics to set the size, dimensions, and color (via fill). Through SVG there's also the ability to set the text to display as well, with it's own parameters. Template literals were used to pass through the colors and the text.
+For this project I learned about scalable vector graphics and how to generate them through class objects. Through the SVG element each basic shape needed to have a element of either circle, rect or polygon. From there it was about defining their characteristics to set the size, dimensions, and color (via fill). Through SVG there's also the ability to set the text to display as well, with it's own parameters. Template literals were used to pass through the colors and the text.
 <br />
 ![lesson 1](assets/img/lesson1.png)
 
