@@ -7,7 +7,7 @@
 | NodeJS      | https://nodejs.org/en |
 | Inquirer      | https://www.npmjs.com/package/inquirer |
 | FS      | https://nodejs.org/api/fs.html |
-| Jest      | https://jestjs.io/docs/getting-started |
+| Jest      | https://jestjs.io/ |
 | Screencastify | https://www.screencastify.com/ |
 | JavaScript | https://developer.mozilla.org/en-US/docs/Web/JavaScript |
 | Git       | https://git-scm.com/ |
@@ -67,31 +67,30 @@ This application acts as a wizard to create an SVG logo.<br />
 
 ### Lessons Learned
 
-#### 1. TBD
-Description
+#### 1. SVG
+For this project I learned about scalable vector graphics and how to generate them through object constructors. Through the SVG element each basic shape needed to have a element of either circle, rect or polygon. From there it was about defining their characteristics to set the size, dimensions, and color (via fill). Through SVG there's also the ability to set the text to display as well, with it's own parameters. Template literals were used to pass through the colors and the text.
 <br />
 ![lesson 1](assets/img/lesson1.png)
-![lesson 1](assets/img/lesson1c.png)
-![lesson 1](assets/img/lesson1b.png)
 
-#### 2. TBD
-Description
+#### 2. Jest
+Jest is an NPM for testing. I used this to test my shape modules. It takes some time to figure out the syntax, while allowing the ability to test modules individually to check their ability. 
 <br />
 ![lesson 2](assets/img/lesson2.png)
 ![lesson 2](assets/img/lesson2b.png)
 
-#### 3. TBD
-Description
+#### 3. Class / Inheritance
+Through our OOP classes we learned about Classes. These were essential to building this project. For the shapes I started with a parent shape that I could then pass the properties down to each type of shape.
 <br />
 ![lesson 3](assets/img/lesson3.png)
+![lesson 3](assets/img/lesson3b.png)
 
-#### 4. TBD
-Description
+#### 4. Chalk (bonus!)
+This one was just for fun because I wanted to spice up the text in my terminal. Chalk provides some predefined colors, highlights, bold, italics and other alteration capabilities.
 <br />
 ![lesson 4](assets/img/lesson4.png)
 
 #### Synopsis
-Description
+Overall this was a fun project. It was difficult to turn around and immediately use the OOP lessons, but definitely necessary to accomplish the needs of this project. 
 
 ## Installation
 
